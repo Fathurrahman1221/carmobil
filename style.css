@@ -54,9 +54,6 @@ img {
   #hero .row>.col-md-6 {
     margin-bottom: 1.5rem;
   }
-/*   #hero{
-    height: 593px;
-  } */
 }
 
 /* Services */
@@ -337,9 +334,12 @@ img {
   height: 106px;
   position: relative;
   background: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-  top: -55px
+  top: -55px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)!important;
+}
+#formSewa form {
+  margin-top: -7px!important;
 }
 #formSewa label {
   color: #3c3c3c;
@@ -375,6 +375,7 @@ label, input, select {
   #formSewa .col-md-10 {
     position: static;
     height: auto;
+    box-shadow: 0;
   }
   form {
     display: block!important;
