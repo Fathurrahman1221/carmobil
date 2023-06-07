@@ -52,6 +52,11 @@ img {
   border-radius: 2px;
   transition: all 0.1s linear;
 }
+@media screen and (max-width: 767px){
+  #hero .row>.col-md-6 {
+    margin-bottom: 1.5rem;
+  }
+}
 
 /* Services */
 #services {
@@ -83,6 +88,11 @@ img {
 .services-image {
   padding-left: 2rem;
   padding-right: 5rem;
+}
+@media screen and (max-width: 767px) {
+  #services {
+    margin: 3.75rem 0;
+  }
 }
 
 /* About */
@@ -282,6 +292,14 @@ img {
 #accordionExample {
   margin-bottom: 1rem;
 }
+@media screen and (max-width:767px) {
+  #faq {
+    margin-bottom: 3.75rem;
+  }
+  #faq .col-md-5{
+    text-align: center;
+  }
+}
 
 /* Footer */
 .list-unstyled li:nth-child(1) {
@@ -352,7 +370,6 @@ label, input, select {
 @media screen and (max-width: 767px) {
   #formSewa {
     margin: 2rem 0;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
   #formSewa .col-md-10 {
     position: static;
@@ -362,6 +379,7 @@ label, input, select {
     display: block!important;
     background: #DBDFEA;
     padding: 1rem;
+    border-radius: 2px;
   }
   #formSewa .btn {
     margin-top: 5px!important;
