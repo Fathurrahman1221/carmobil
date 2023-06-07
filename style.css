@@ -231,6 +231,7 @@ img {
   padding-top: 1rem;
   padding-bottom: 3.25rem;
   font-weight: bold;
+  line-height: 20px;
 }
 .banner-btn {
   background: #5cb85f;
@@ -312,9 +313,6 @@ img {
 
 
 /* Search HTML */
-#formSewa {
-  
-}
 #formSewa .col-md-10{
   width: 1047px;
   height: 106px;
@@ -327,9 +325,6 @@ img {
 #formSewa label {
   color: #3c3c3c;
   font-family: 'Rubik', sans-serif;
-}
-#formSewa input, select{
-  /* color: #8a8a8a!important; */
 }
 label, input, select {
   font-size: 12px!important;
@@ -352,4 +347,23 @@ label, input, select {
 }
 .input-group {
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  #formSewa {
+    margin: 2rem 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  #formSewa .col-md-10 {
+    position: static;
+    height: auto;
+  }
+  form {
+    display: block!important;
+    background: #DBDFEA;
+    padding: 1rem;
+  }
+  #formSewa .btn {
+    margin-top: 5px!important;
+  }
 }
