@@ -227,7 +227,7 @@ img {
   font-size: 2.25rem;
 }
 #banner p {
-  width: 468px;
+  /* width: 468px; */
   padding-top: 1rem;
   padding-bottom: 3.25rem;
   font-weight: bold;
@@ -247,6 +247,7 @@ img {
 @media screen and (max-width: 767px) {
   #banner .container .col-md-12 {
     height: 420px!important;
+    width: 328px;
   }
   #banner .container .col-md-12 h3 {
    padding-top: 4rem;
@@ -256,7 +257,8 @@ img {
     margin-bottom: 2rem;
   }
   #banner .container .col-md-12 .banner-btn {
-    margin-bottom: 4rem;
+    margin-bottom: 10rem!important;
+    margin-top: 0;
   }
 
 }
