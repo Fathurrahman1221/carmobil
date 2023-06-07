@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Mobil</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- START: Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li>
+                <a class="nav-link text-capitalize" href="#services"
+                  >our services</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-capitalize" href="#about">why us</a>
+              </li>
+              <li>
+                <a class="nav-link text-capitalize" href="#testimonial"
+                  >testimonial</a
+                >
+              </li>
+              <li><a class="nav-link text-uppercase" href="#faq">faq</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END: Hero -->
+  
+      <!-- START: Hero -->
+      <section id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <h3 class="hero-title">
+                Sewa & Rental Mobil Terbaik di kawasan (Bekasi)
+              </h3>
+              <p class="hero-text">
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil
+                kualitas <br />
+                terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
+                <br />
+                untuk sewa mobil selama 24 jam
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/car-banner.png" class="" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END: Hero -->
+
+      <!-- START: Form Sewa Mobil -->
+      <section id="formSewa" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <form class="d-flex justify-content-around align-self-center">
+                        <div class="my-3 input-grup align-content-center justify-content-center">
+                          <label for="exampleInputEmail1" class="form-label">Nama Mobil</label>
+                          <input type="email" class="form-control d-inline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ketik nama/tipe mobil">
+                        </div>
+                        <div class="my-3 input-grup align-content-center justify-content-center">
+                            <label for="kategori" class="form-label">Kategori</label>
+                            <select id="kategori" class="form-select text-secondary">
+                              <option disabled selected>Masukan kapasitas mobil</option>
+                              <option class="text-black" value="2">2 - 4 orang</option>
+                              <option class="text-black" value="3">4 - 6 orang</option>
+                              <option class="text-black" value="4">6 - 8 orang</option>
+                            </select>
+                          </div>
+                        <div class="my-3 input-grup align-content-center justify-content-center">
+                            <label for="harga" class="form-label">Harga</label>
+                            <select id="harga" class="form-select text-secondary">
+                                <option class="text-secondary-emphasis" disabled selected>Masukan Harga Sewa per Hari</option>
+                              <option class="text-black" value="2">< Rp. 400.000</option>
+                              <option class="text-black" value="3">Rp. 400.000 - Rp.600.000</option>
+                              <option class="text-black" value="4"> > Rp.600.000</option>
+                            </select>
+                          </div>
+                        <div class="my-3 input-grup align-content-center justify-content-center">
+                            <label for="status" class="form-label">Status</label>
+                            <select id="status" class="form-select text-secondary">
+                              <option disabled selected>Disewa</option>
+                              <option class="text-black" value="2">Sudah Kembali</option>
+                              <option class="text-black" value="3">3</option>
+                              <option class="text-black" value="4">4</option>
+                            </select>
+                          </div>
+                        <button type="submit" class="btn btn-primary align-self-center">Cari Mobil</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- START: Footer -->
+    <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 fw-bold">
+              <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+              <p>binarcarrental@gmail.com</p>
+              <p>081-233-334-808</p>
+            </div>
+            <div class="col-md-3 justify-content-center">
+              <p>Our services</p>
+              <p>Why Us</p>
+              <p>Testimonial</p>
+              <p>FAQ</p>
+            </div>
+            <div class="col-md-3">
+              <p class="fw-bold">Connect with us</p>
+              <ul class="list-unstyled d-flex">
+                <li><a href=""><img src="./img/icon_facebook.svg" alt="" /></a></li>
+                <li><a href=""><img src="./img/icon_twitch.svg" alt="" /></a></li>
+                <li><a href=""><img src="./img/icon_instagram.svg" alt="" /></a></li>
+                <li><a href=""><img src="./img/icon_mail.svg" alt="" /></a></li>
+                <li><a href=""><img src="./img/icon_twitch.svg" alt="" /></a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <p class="fw-bold">Copyright Binar 2022</p>
+              <a href=""><img src="./img/footer-logo.svg" alt="" srcset="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END: Footer -->
+    
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
