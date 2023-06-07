@@ -73,8 +73,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    <form class="d-flex justify-content-around align-self-center">
-                        <div class="my-3 input-grup align-content-center justify-content-center">
+                    <form class="my-sm-4 d-block d-md-flex justify-content-around align-self-center">
+                        <div class="my-md-3 input-grup align-content-center justify-content-center">
                           <label for="exampleInputEmail1" class="form-label">Nama Mobil</label>
                           <input type="email" class="form-control d-inline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ketik nama/tipe mobil">
                         </div>
@@ -82,27 +82,26 @@
                             <label for="kategori" class="form-label">Kategori</label>
                             <select id="kategori" class="form-select text-secondary">
                               <option disabled selected>Masukan kapasitas mobil</option>
-                              <option class="text-black" value="2">2 - 4 orang</option>
-                              <option class="text-black" value="3">4 - 6 orang</option>
-                              <option class="text-black" value="4">6 - 8 orang</option>
+                              <option class="text-black" value="4">2 - 4 orang</option>
+                              <option class="text-black" value="6">4 - 6 orang</option>
+                              <option class="text-black" value="8">6 - 8 orang</option>
                             </select>
                           </div>
                         <div class="my-3 input-grup align-content-center justify-content-center">
                             <label for="harga" class="form-label">Harga</label>
                             <select id="harga" class="form-select text-secondary">
                                 <option class="text-secondary-emphasis" disabled selected>Masukan Harga Sewa per Hari</option>
-                              <option class="text-black" value="2">< Rp. 400.000</option>
-                              <option class="text-black" value="3">Rp. 400.000 - Rp.600.000</option>
-                              <option class="text-black" value="4"> > Rp.600.000</option>
+                              <option class="text-black" value="400000">< Rp. 400.000</option>
+                              <option class="text-black" value="500000">Rp. 400.000 - Rp.600.000</option>
+                              <option class="text-black" value="600000"> > Rp.600.000</option>
                             </select>
                           </div>
                         <div class="my-3 input-grup align-content-center justify-content-center">
                             <label for="status" class="form-label">Status</label>
                             <select id="status" class="form-select text-secondary">
                               <option disabled selected>Disewa</option>
-                              <option class="text-black" value="2">Sudah Kembali</option>
-                              <option class="text-black" value="3">3</option>
-                              <option class="text-black" value="4">4</option>
+                              <option class="text-black" value="disewa">Disewa</option>
+                              <option class="text-black" value="tersedia">Tersedia</option>
                             </select>
                           </div>
                         <button type="submit" class="btn btn-primary align-self-center">Cari Mobil</button>
