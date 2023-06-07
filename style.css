@@ -31,8 +31,6 @@ img {
 }
 #hero {
   padding-top: 2.375rem;
-  /* padding-bottom: 2.375rem; */
-  /* height: 504px; */
 }
 
 .hero-title {
@@ -55,6 +53,9 @@ img {
 @media screen and (max-width: 767px){
   #hero .row>.col-md-6 {
     margin-bottom: 1.5rem;
+  }
+  #hero{
+    height: 593px;
   }
 }
 
