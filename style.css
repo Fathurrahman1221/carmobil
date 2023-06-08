@@ -450,7 +450,7 @@ label, input, select {
     height: auto!important;
   }
   #cardResult .col-md-4 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   #cardResult .col-md-4{
     display: flex;
