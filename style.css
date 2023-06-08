@@ -445,3 +445,18 @@ label, input, select {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)!important;
   transform: scale(1.02);
 }
+@media screen and (max-width:767px) {
+  .hero-result {
+    height: auto!important;
+  }
+  #cardResult .col-md-4 {
+    margin-bottom: 10px;
+  }
+  #cardResult .col-md-4{
+    display: flex;
+    justify-content: center;
+  }
+  #cardResult {
+    margin-bottom: 7rem;
+  }
+}
