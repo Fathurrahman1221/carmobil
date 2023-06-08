@@ -103,27 +103,27 @@ img {
   font-size: 14px;
   font-weight: bold;
 }
-.about-card {
+#about .about-card {
   padding-top: 1.5rem;
 }
-.about-card .card {
+#about .about-card .card {
   border-radius: 0.5rem;
 }
-.card img {
+#about .card img {
   max-width: 32px;
 }
-.about-card .card {
+#about .about-card .card {
   padding: 24px;
   border-color: D0D0D0;
   max-width: 16.75rem;
   transition: all 0.3s linear;
 }
-.card-title {
+#about .card-title {
   padding: 1rem 0;
   font-size: 1rem;
   font-weight: bold;
 }
-.card-text {
+#about .card-text {
   font-size: 0.875rem;
   font-weight: bold;
 }
@@ -209,15 +209,8 @@ img {
 .testimonial-item {
   margin-right: 2rem !important;
 }
-.righ-button {
-  transform: rotate(180deg);
-}
 .button {
   right: 597.5px !important;
-}
-.righ-button:hover {
-  /* background: #5cb85f; */
-  z-index: 0;
 }
 
 /* Banner */
@@ -336,13 +329,14 @@ img {
   background: #fff;
   margin: 0 auto;
   top: -55px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)!important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)!important;
+  border-radius: 8px;
 }
 #formSewa form {
-  margin-top: -7px!important;
+  margin-top: 0!important;
 }
 #formSewa label {
-  color: #3c3c3c;
+  color: #3c3c3c!important;
   font-family: 'Rubik', sans-serif;
 }
 label, input, select {
@@ -386,4 +380,68 @@ label, input, select {
   #formSewa .btn {
     margin-top: 5px!important;
   }
+}
+
+#formSewa input:focus{
+  border: 1px solid #35B0A7!important;
+} 
+#formSewa select:focus {
+  border-color: green!important;
+}
+#formSewa select:focus option {
+  background: #C9E7CA!important;
+  color: #5cb85f!important;
+  font-weight: bold;
+}
+
+
+
+/* Result HTML */
+.hero-result {
+  height: 200px!important;
+}
+#formSewa .form-result input, #formSewa .form-result select {
+  border: 1px solid #222!important;
+  border-radius: 2px!important;
+}
+
+#formSewa .form-result .btn {
+  border-color: #0d28a6!important;
+  color: #0d28a6!important;
+  border-radius: 2px;
+  border-width: 1px!important;
+  width: 51px!important;
+  height: 36px!important;
+  background: white;
+}
+
+
+#cardResult {
+  margin-bottom: 283px;
+}
+#cardResult .card-type{
+  font-size: 14px;
+}
+#cardResult .card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+#cardResult .card-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+#cardResult .btn{
+  background: #5cb85f!important;
+  border: 0;
+  border-radius: 0;
+}
+#cardResult .btn:hover{
+  background: #408643!important;
+}
+#cardResult .card{
+  transition: all 0.3s linear;
+}
+#cardResult .card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)!important;
+  transform: scale(1.02);
 }
